@@ -53,7 +53,7 @@
     .place {
         grid-template-columns: max-content 352px;
         gap: 48px 28px;
-        margin: 0 auto 72px
+        margin: 0 auto 72px;
     }
 
     .place__image {
