@@ -1,0 +1,11 @@
+.overlay__subtitle {
+    max-width: 360px;
+    width: 100%;
+    margin: 32px auto 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    color: #FFFFFF;
+    text-align: center;
+}
