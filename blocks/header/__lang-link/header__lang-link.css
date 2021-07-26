@@ -10,10 +10,6 @@
     
 }
 
-.header__lang-link_active {
-    text-decoration-line: underline;
-}
-
 .header__lang-link:last-child {
     padding-right: 0;
     text-decoration: none;

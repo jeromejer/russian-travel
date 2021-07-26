@@ -1,4 +1,4 @@
-.website {
+.place__website {
     align-self: end;
     margin: 0;
     max-width: 456px;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 767px) {
 
-    .website {
+    .place__website {
         padding-left: 16px;
         max-width: 320px;
         box-sizing: border-box;

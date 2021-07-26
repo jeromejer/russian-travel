@@ -24,10 +24,10 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        grid-template-columns: max-content;
+        grid-template-columns: minmax(320px, 1fr);
         gap: 32px;
         margin: 0px auto 50px;
-        max-width: 320px;
+        max-width: 100%;
         width: 100%;
     }
 }
