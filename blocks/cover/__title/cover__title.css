@@ -1,4 +1,4 @@
-.cover__overlay_title {
+.cover__title {
     text-align: center;
     max-width: 560px;
     width: 100%;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-   .cover__overlay_title {
+   .cover__title {
        text-align: center;
        max-width: 90%;
        width: 100%;

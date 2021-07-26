@@ -1,4 +1,4 @@
-.cover__overlay_subtitle {
+.cover__subtitle {
     max-width: 360px;
     width: 100%;
     margin: 32px auto 0;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .cover__overlay_subtitle {
+    .cover__subtitle {
         max-width: 90%;
         margin: 16px auto 0;
         font-style: normal;
