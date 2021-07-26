@@ -7,23 +7,18 @@
     position: relative;
 }
 
-
-@media screen and (max-width: 1279px) {
-    .cover__overlay {
-       min-height: 640px;
-   }
+.cover__overlay::before {
+    content: "";
+    display: block;
+    background: rgb(42 44 47 / 30%);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0%;
 }
 
-
-@media screen and (max-width: 1023px) {
-    .cover__overlay{
-       min-height: 480px;
-   }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__overlay {
-       top: 0;
-       min-height: 200px;
-   }
+.cover__overlay:hover::before {
+    background:rgb(42 44 47 / 80%);
+    cursor: pointer;
 }

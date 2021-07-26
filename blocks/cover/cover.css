@@ -1,7 +1,7 @@
 .cover {
-    max-width: 100%;
     width: 100%;
-    min-height: 740px;
+    max-width: 92.5%;
+    min-height: 62.5vw;
     margin: 92px auto 0;
     position: relative;
     background-image: url('../../images/__background_image.png');
@@ -9,47 +9,22 @@
     background-size: cover;
 }
 
-.cover::before {
-    content: "";
-    display: block;
-    background: rgb(42 44 47 / 30%);
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    left: 0;
-    top: 0%;
-}
-
-.cover:hover::before {
-    background:rgb(42 44 47 / 80%);
-    cursor: pointer;
-}
-
 
 @media screen and (max-width: 1279px) {
     .cover {
-        width: 1024px;
-        min-height: 640px;   
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        max-width: 768px;
-        min-height: 480px;
         margin: 90px auto 0;
-        width: 100%;
-        height: 100%;
-        position: relative;
     }
 }
 
+
 @media screen and (max-width: 767px) {
     .cover {
-        max-width: 320px;
-        width: 100%;
-        min-height: 200px;
         margin: 66px auto 0;
-        position: relative;
     }
 }
