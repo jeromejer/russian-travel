@@ -1,9 +1,7 @@
 .place__paragraph {
     max-width: 484px;
     width: 100%;
-    margin: 0;
     align-self: start;
-    width: 100%;
     font-size: 18px;
     line-height: 163%;
     font-weight: normal;
