@@ -17,4 +17,8 @@
 * все изображения оптимизированы, уменьшив их вес без потери качества
 
 
+<<<<<<< HEAD
 Ссылка на GitHub Pages https://jeromejer.github.io/russian-travel/index.html
+=======
+Ссылка на GitHub Pages https://jeromejer.github.io/russian-travel/index.html
+>>>>>>> f0ee5bb8adbd0fb71ea664f533aeadecaa8a57ca
