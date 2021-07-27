@@ -1,6 +1,6 @@
 .cover {
     width: 100%;
-    max-width: 92.5%;
+    max-width: 1184px;
     min-height: 62.5vw;
     margin: 92px auto 0;
     position: relative;
@@ -9,12 +9,6 @@
     background-size: cover;
 }
 
-
-@media screen and (max-width: 1279px) {
-    .cover {
-        max-width: 100%;
-    }
-}
 
 @media screen and (max-width: 1023px) {
     .cover {
